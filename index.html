@@ -90,15 +90,8 @@
       height: 64px;
       border-radius: 14px;
       flex-shrink: 0;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 28px;
+      object-fit: cover;
     }
-
-    .icon-downtick { background: #1c1c1e; }
-    .icon-xvert    { background: #0f4c81; }
-    .icon-tabula   { background: #1d4ed8; }
 
     .app-info h2 {
       font-family: 'DM Serif Display', serif;
@@ -158,7 +151,7 @@
     <div class="apps">
 
       <div class="app-card">
-        <div class="app-icon icon-downtick">⏳</div>
+      <img src="images/downtick.png" class="app-icon" alt="Downtick icon">
         <div class="app-info">
           <h2>Downtick</h2>
           <p>Count down to birthdays, anniversaries, vacations, and anything else worth tracking. Simple, beautiful, and always up to date.</p>
@@ -170,7 +163,7 @@
       </div>
 
       <div class="app-card">
-        <div class="app-icon icon-xvert">📐</div>
+        <img src="images/xvert.png" class="app-icon" alt="XVert icon">
         <div class="app-info">
           <h2>XVert</h2>
           <p>A unit converter with a custom Formula builder. Convert anything — and create your own conversions when the built-in ones aren't enough.</p>
@@ -182,7 +175,7 @@
       </div>
 
       <div class="app-card">
-        <div class="app-icon icon-tabula">🗄️</div>
+        <img src="images/tabuladb.png" class="app-icon" alt="TabulaDB icon">
         <div class="app-info">
           <h2>TabulaDB</h2>
           <p>Build your own personal database without writing a line of code. Track anything with custom fields, templates, and iCloud sync.</p>
@@ -198,7 +191,6 @@
 
   <footer>
     <span>© 2026 Brigg Thorp</span>
-    <a href="mailto:your@email.com">Contact</a>
   </footer>
 
 </body>
